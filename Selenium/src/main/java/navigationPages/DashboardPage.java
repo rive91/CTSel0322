@@ -19,11 +19,17 @@ public class DashboardPage {
 	private WebElement welcomeDropDown;
 	@FindBy(xpath = "//*[@id=\"welcome-menu\"]/ul/li[3]/a")
 	private WebElement logoutLink;
+	@FindBy(id = "menu_directory_viewDirectory")
+	private WebElement menuDirectory;
 	
 	public void logout() {
 		WrapClass.click(welcomeDropDown);
 		WrapClass.click(logoutLink);
 
+	}
+	
+	public void clickMenuDirectory() {
+		WrapClass.click(menuDirectory);
 	}
 
 }

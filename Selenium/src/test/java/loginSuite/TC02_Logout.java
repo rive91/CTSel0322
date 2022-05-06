@@ -1,13 +1,16 @@
 package loginSuite;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import commonClasses.GlobalVariables;
 import commonClasses.SetupDriver;
+import commonClasses.WrapClass;
 import navigationPages.DashboardPage;
+import navigationPages.DirectoryPage;
 import navigationPages.LoginPage;
 
 public class TC02_Logout {
@@ -17,6 +20,7 @@ public class TC02_Logout {
 	// LoginPage Object
 	LoginPage login = new LoginPage(driver);
 	DashboardPage dashboard = new DashboardPage(driver);
+	DirectoryPage directory = new DirectoryPage(driver);
 
 	@BeforeTest
 	public void startWebDriver() {
@@ -27,6 +31,8 @@ public class TC02_Logout {
 	@Test
 	public void TC_02() {
 		login.login(GlobalVariables.USER_ADMIN, GlobalVariables.PASSWORD_ADMIN);
+		
+		
 		dashboard.logout();
 	}
 	

@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-30T16:55:21Z" name="RegressionAutomatedQA" finished-at="2022-04-30T16:55:28Z" duration-ms="7210">
+  <suite started-at="2022-05-06T12:33:47 COT" name="Default suite" finished-at="2022-05-06T12:33:52 COT" duration-ms="5716">
     <groups>
     </groups>
-    <test started-at="2022-04-30T16:55:21Z" name="TC01" finished-at="2022-04-30T16:55:24Z" duration-ms="3245">
-      <class name="loginSuite.TC01_Login">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginSuite.TC01_Login@6124287a]" started-at="2022-04-30T11:55:21Z" name="startWebDriver" finished-at="2022-04-30T11:55:22Z" duration-ms="982" status="PASS">
+    <test started-at="2022-05-06T12:33:47 COT" name="Default test" finished-at="2022-05-06T12:33:52 COT" duration-ms="5716">
+      <class name="loginSuite.TC05_LoginExcelData">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginSuite.TC05_LoginExcelData@9a2ec9b]" started-at="2022-05-06T12:33:47 COT" name="startWebDriver" finished-at="2022-05-06T12:33:49 COT" duration-ms="2649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC_01()[pri:0, instance:loginSuite.TC01_Login@6124287a]" started-at="2022-04-30T11:55:22Z" name="TC_01" finished-at="2022-04-30T11:55:24Z" duration-ms="1946" status="PASS">
+        <test-method signature="TC_01()[pri:0, instance:loginSuite.TC05_LoginExcelData@9a2ec9b]" started-at="2022-05-06T12:33:49 COT" name="TC_01" finished-at="2022-05-06T12:33:52 COT" duration-ms="2906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginSuite.TC01_Login@6124287a]" started-at="2022-04-30T11:55:24Z" name="closeDriver" finished-at="2022-04-30T11:55:24Z" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginSuite.TC05_LoginExcelData@9a2ec9b]" started-at="2022-05-06T12:33:52 COT" name="closeDriver" finished-at="2022-05-06T12:33:52 COT" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- loginSuite.TC01_Login -->
-    </test> <!-- TC01 -->
-    <test started-at="2022-04-30T16:55:24Z" name="TC02" finished-at="2022-04-30T16:55:28Z" duration-ms="3917">
-      <class name="loginSuite.TC02_Logout">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginSuite.TC02_Logout@42f9c19a]" started-at="2022-04-30T11:55:24Z" name="startWebDriver" finished-at="2022-04-30T11:55:25Z" duration-ms="1007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method signature="TC_02()[pri:0, instance:loginSuite.TC02_Logout@42f9c19a]" started-at="2022-04-30T11:55:25Z" name="TC_02" finished-at="2022-04-30T11:55:28Z" duration-ms="2728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginSuite.TC02_Logout@42f9c19a]" started-at="2022-04-30T11:55:28Z" name="closeDriver" finished-at="2022-04-30T11:55:28Z" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- loginSuite.TC02_Logout -->
-    </test> <!-- TC02 -->
-  </suite> <!-- RegressionAutomatedQA -->
+      </class> <!-- loginSuite.TC05_LoginExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
